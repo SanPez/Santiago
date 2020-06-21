@@ -1,0 +1,25 @@
+<app-header></app-header>
+<mat-drawer-container autosize>
+    <mat-drawer #sidenav mode="side">
+        <mat-toolbar></mat-toolbar>
+        <div class="sidenav">
+            <button mat-flat-button routerLink="/">
+                <mat-icon>home</mat-icon>
+                <span>Home</span>
+            </button>
+            <hr>
+            <button mat-flat-button routerLink="/I">
+                <mat-icon svgIcon="Logo"></mat-icon>
+                <span>Santiago</span>
+            </button>
+            <hr>
+            <button mat-flat-button routerLink="/Credits">
+                <mat-icon>emoji_objects</mat-icon>
+                <span>Credits</span>
+            </button>
+        </div>
+    </mat-drawer>
+
+    <router-outlet></router-outlet>
+
+</mat-drawer-container>

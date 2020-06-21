@@ -1,0 +1,17 @@
+mat-drawer {
+  position: fixed;
+  top: 0;
+}
+
+.sidenav {
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  mat-icon {
+    padding-right: 8px;
+  }
+}
+
+.mat-drawer-container {
+  background-color: transparent;
+}
